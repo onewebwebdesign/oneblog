@@ -1,11 +1,19 @@
 import styled from "styled-components";
+
+import ArticlesList from "../components/articles/ArticlesList";
+
 const Articles = (props) => {
-  const Para = styled.p`
-    font-size: 30px;
-  `;
+  const Articles = [
+    {
+      id: 1,
+      title: "Some article",
+    },
+  ];
+
   return (
     <div>
-      <Para>Articles</Para>
+      <p>Articles</p>
+      <ArticlesList articles={Articles} />
     </div>
   );
 };
