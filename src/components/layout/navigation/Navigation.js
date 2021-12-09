@@ -16,6 +16,9 @@ const Navigation = (props) => {
         <li>
           <NavLink to="/articles">Articles</NavLink>
         </li>
+        <li>
+          <NavLink to="/users">Users</NavLink>
+        </li>
       </ul>
     </NavWrapper>
   );
